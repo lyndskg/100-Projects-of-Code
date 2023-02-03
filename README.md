@@ -10,6 +10,11 @@ I created this repository on 1/20/2023.
 <ins>__Latest Update__</ins>:
 As of February 3rd, 2023, I have completed 3 out of the 98 projects listed below.
 
+
+<ins>__Language Count__</ins>:
+- Python (2)
+- JavaScript (1)
+
 ## Categories
 
 ### <ins>General Web & Networking Projects</ins>
