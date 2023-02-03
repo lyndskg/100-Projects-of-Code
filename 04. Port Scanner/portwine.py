@@ -1,6 +1,5 @@
 # implement ICMP class. 
 # Figure out what sniffer thread (s_thread) vs r_thread is
-# UDP signature
 
 import errno
 import sys
