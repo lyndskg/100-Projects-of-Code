@@ -1,6 +1,6 @@
 # 98 Projects of Code
 
-![image](https://user-images.githubusercontent.com/60162813/216659986-825651e6-81f2-4943-a2ae-bff266b2c305.png)
+<img_width="700" alt="98 Days of Code" src="https://user-images.githubusercontent.com/60162813/216659986-825651e6-81f2-4943-a2ae-bff266b2c305.png">
 
 Inspired by [aceking007's GitHub post](https://github.com/aceking007/100ProjectsOfCode), I'll be attempting to program all 98 of the 100 projects I could identify from their list &mdash; using a variety of different languages (especially ones I'm not as familiar with!!). 
 
