@@ -40,11 +40,12 @@ def banner():
 
 # Prints usage information.
 def usage():
-	banner()  
+	banner() # Banner
 
 	print("Usage: %s -t [targets] -p [ports] [options]" % sys.argv[0])
 	print("")
 
+    # Options menu
 	print("Options:")
 	print("")
 	print("\t{:<10} {:<30}".format("-t", "[target hostname]"))
@@ -55,6 +56,7 @@ def usage():
 	print("\t{:<10} {:<30}".format("--timeout", "[timeout in ms]", "(default=5000)"))
 	print("")
 
+    # Examples
 	print("Examples:")
 	print("\n\t%s -sT -t 127.0.0.1 -p 0-65535 -v  - Do a verbose TCP scan of all ports on 127.0.0.1" % sys.argv[0])
 	print("\t%s -sU -t 127.0.0.1 -p 0-100       - Do a UDP scan of the first 100 ports on 127.0.0.1" % sys.argv[0])	
@@ -75,14 +77,17 @@ def parse_ports(arg):
             start = int(start)
             end = int(end)
 
-            # WHY??
+            # If ports are within range
             if (start <= 65535) and (end <= 65535):
+                # For TCP, port number 0 is reserved and cannot be used
+                # For UDP, the source port is optional and a value of zero means no port
                 if SCAN_TYPE == "UDP" and start == 0:
                     start += 1
 
+                # Iterate through and append all in-range ports
                 for p in range(start, end + 1):
                     ports.append(p)
-            
+            # Else, ports are out of range
             else: 
                 print("Ports cannot be higher than 65535.")
                 sys.exit(1)
@@ -94,8 +99,10 @@ def parse_ports(arg):
     elif "," in arg:
         try:
             for p in arg.split(","):
+                # If ports are in range
                 if (int(p) <= 65535):
                     ports.append(int(p))
+                # Else, ports are out of range
                 else:
                     print("Ports cannot be higher than 65535")
                     sys.exit(1)
@@ -106,8 +113,10 @@ def parse_ports(arg):
     # If a single port is specified
     else:
         try:
+            # If port is in range
             if (int(arg) <= 65535):
                 ports.append(int(arg))
+            # Else, port is out of range
             else:
                 print("Ports cannot be higher than 65535")
                 sys.exit(1)
@@ -183,6 +192,7 @@ class Scanner(object):
                         pass
                 
                 except Exception as e:
+                    # If the connection timed out 
                     if type(e) == socket.timeout:
                         ports_ident["filtered"].append(port)
                     else:
@@ -202,13 +212,15 @@ class Scanner(object):
             self.target = target
             self.portqueue = portqueue
 
+        # Handles Type 3 error (i.e. EConnection refused)
         def handle_econn_refused(self):
             self.status = False
-            self.socket.close()
+            self.socket.close() # Close the socket
             
             if VERBOSE_EXTRA:
                 sys.stdout.write('UDP port closed.', self.port)
         
+        # Handles receipt of packets
         def handle_receive(self):
             self.status = True
             self.socket.close()
@@ -220,7 +232,8 @@ class Scanner(object):
             while 1:
                 if self.portqueue.empty() or exit_event.is_set():
                     break
-                    
+                
+                # If UDP port status is already open or closed
                 if self.status is not None: 
                     continue
 
@@ -229,11 +242,13 @@ class Scanner(object):
                 
                 try: 
                     conn = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-                    conn.settimeout(float(timeout/1000))
+                    conn.settimeout(float(timeout / 1000))
                     
+                    # Connects to target at port
                     conn.connect((target, port))
 
                     try: 
+                        # Attempts to send an arbitrary byte
                         conn.send('\x00')
                     except socket.error as ex:
                         if ex.errno == errno.ECONNREFUSED:
@@ -243,8 +258,10 @@ class Scanner(object):
                             raise
                     
                     try: 
+                        # Receives a response of max 8192 bytes from the socket 
                         d = conn.recvfrom(8192)
 
+                        # If a sizable response was received
                         if (len(d) > 0):
                             if VERBOSE:
                                 sys.stdout.write("[%s] %s - %d/udp open (Data recieved)\n" % (date_time(), target, port))
@@ -270,13 +287,14 @@ class Scanner(object):
                 
                 conn.close()
 
+# Thread sniffer based on a target address
 def sniffer_thread(target):
     sniffer = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_ICMP)
     sniffer.bind(("0.0.0.0", 0))
     sniffer.settimeout(1)
     sniffer.setsockopt(socket.IPPROTO_IP, socket.IP_HDRINCL, 1)
 
-	# continually read in packets and parse their information
+	# Continually read in packets and parse their information
     while True:
         if (exit_event.is_set()):
             break
@@ -306,10 +324,12 @@ def sniffer_thread(target):
             pass
     
 
+# Returns the state of all ports
 def get_states(msg, n):
     return "%d %s ports." % (n, msg)
 
 
+# Prints results on the target address
 def print_results(target):
     if VERBOSE:
         print("")
@@ -319,7 +339,9 @@ def print_results(target):
     
     the_dict = ports_ident.items()
 
+    # Iterate through each state and port list in the dictionary 
     for state, p_list in the_dict:
+        # If the length of the port list is greater than 20, append a state summary
         if (len(p_list) > 20):
             port_states.append(get_states(state, len(p_list)))
         else:
