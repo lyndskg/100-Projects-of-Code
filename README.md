@@ -2,7 +2,8 @@
 
 Inspired by [aceking007's GitHub post](https://github.com/aceking007/100ProjectsOfCode), I'll be attempting to program all 98 of the 100 projects I could identify from their list &mdash; using a variety of different languages (especially ones I'm not as familiar with!!). 
 
-I'm hoping to gain some more experience with languages I'm currently weak at (or have never used), get some general coding practice to refresh and reinforce my understanding of fundamental computer science concepts, and increase the breadth of my overall coding expertise via completing such a diverse array of projects.
+I'm hoping to gain some more experience with languages I'm currently weak at (or have never used), get some general coding practice to refresh and reinforce my understanding of fundamental computer science concepts, and increase the breadth of my overall coding expertise via completing such a diverse array of projects.  
+
 
 ## Progress (6/98)
 I created this repository on 1/20/2023.
@@ -14,7 +15,8 @@ As of February 3rd, 2023, I have completed (...or at least have made a good fait
    - Python (3)
    - JavaScript (1)
    - PHP (1)
-   - Ruby (1)
+   - Ruby (1)  
+
 
 ## Categories
 
@@ -145,6 +147,7 @@ As of February 3rd, 2023, I have completed (...or at least have made a good fait
 96. Directory Tree Generator
 97. Random username Generator
 98. Roman to Decimal Converter
+
 
 
 #100ProjectsOfCode
