@@ -1,6 +1,6 @@
 # 98 Projects of Code
 
-![alt text](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201216211829/100-Days-of-Code-–-A-Complete-Guide-For-Beginners-and-Experienced.jpg)
+![image](https://user-images.githubusercontent.com/60162813/216659986-825651e6-81f2-4943-a2ae-bff266b2c305.png)
 
 Inspired by [aceking007's GitHub post](https://github.com/aceking007/100ProjectsOfCode), I'll be attempting to program all 98 of the 100 projects I could identify from their list &mdash; using a variety of different languages (especially ones I'm not as familiar with!!). 
 
@@ -15,12 +15,12 @@ I created this repository on 1/20/2023.
 As of February 3rd, 2023, I have completed (...or at least have made a good faith effort at...) 6 out of the 98 projects listed below.
 
 <ins>__Primary Language Breakdown__</ins>: (6)
+<img width="508" alt="Primary Language Breakdown - 2/3/23" src="https://user-images.githubusercontent.com/60162813/216658663-5a29e5d1-f4ef-440e-b002-a41d0838c353.png">
    - Python (3)
    - JavaScript (1)
    - PHP (1)
    - Ruby (1)
 
-<img width="508" alt="Screenshot 2023-02-03 at 11 42 34 AM" src="https://user-images.githubusercontent.com/60162813/216658663-5a29e5d1-f4ef-440e-b002-a41d0838c353.png">
 
 
 &nbsp;
