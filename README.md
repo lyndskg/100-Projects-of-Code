@@ -35,11 +35,11 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
 
 1. FTP Client
 2. [HTTP Server](https://github.com/lyndskg/98-Projects-of-Code/tree/main/02.%20HTTP%20Web%20Server)  ![](https://geps.dev/progress/100) ✓ 
-   - Python (1/20/23). A super simple HTTP web server outputting "Hello, World" (or any other arbitrary text) in its  response body. Built using the "socket" Python library, as implemented in [Blog Post by Ruslan](https://ruslanspivak.com/lsbaws-part1/).
+   - Python (1/20/23). A super simple HTTP web server outputting "Hello, World" (or any other arbitrary text) in its response body. Built using the "socket" Python library, as implemented in [Blog Post by Ruslan](https://ruslanspivak.com/lsbaws-part1/).
    - Fully implemented and tested.
 3. Web Scraper
 4. [Port Scanner](https://github.com/lyndskg/98-Projects-of-Code/tree/main/04.%20Port%20Scanner)  ![](https://geps.dev/progress/80)
-   - Python (2/3/23). A light-weight yet multi-threaded port scanner with both UDP and TCP functionalities. Probes a server or host for open, closed, and/or filtered ports. Can be run on specific ports; otherwise, defaults to the top 1000 ports. Built using the "socket" Python library, with additional support from "threading" and "queue" libraries for threaded programming intents. Largely inspired by [PieScan](https://github.com/m57/piescan/blob/master/piescan.py) and [KPorts](https://github.com/remzmike/python-kports-portscanner/blob/master/kports.py).
+   - Python (2/3/23). A light-weight yet multi-threaded port scanner with both UDP and TCP functionalities. Probes a server or host for open, closed, and/or filtered ports. Can be run on specific ports; otherwise, defaults to the top 1000 ports. Built using the "socket" Python library, with additional support from "threading" and "queue" libraries for threaded programming intents. Largely inspired by [M57's PieScan](https://github.com/m57/piescan/blob/master/piescan.py) and [Remzmike's KPorts](https://github.com/remzmike/python-kports-portscanner/blob/master/kports.py).
    - Fully implemented; needs to be tested and debugged.
 5. Packet Sniffer
 6. P2P File Sharing
@@ -47,12 +47,12 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
 8. Bandwidth Monitor
 9. Product Landing Page
 10. [Create Your Own Blog](https://github.com/lyndskg/98-Projects-of-Code/tree/main/10.%20Blog)  ![](https://geps.dev/progress/80)
-   - Ruby (2/3/23). Employing [Jekyll](https://jekyllrb.com) &mdash; a static site generator written in Ruby &mdash; in order to build a simple, HTML-based online blog. Jekyll takes content written in Markdown files, passes it through specified templates, then spits it out as a complete static website &ndash; ready to be served. Guides on how to use Jekyll to blog can be found [here](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/), [here](https://www.creativebloq.com/how-to/jekyll-blog), and [here](https://jekyllrb.com/docs/step-by-step/08-blogging/).
+   - Ruby (2/3/23). Employing [Jekyll](https://jekyllrb.com) &mdash; a static site generator written in Ruby &mdash; in order to build a simple, HTML-based online blog. Jekyll takes content written in Markdown files, passes it through specified templates, then spits it out as a complete static website &ndash; ready to be served. Guides on how to use Jekyll to blog can be found [here](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/) and [here](https://www.creativebloq.com/how-to/jekyll-blog), while its official documentation is located [here](https://jekyllrb.com/docs/).
    - Framework is fully intact and functional; can be further implemented if desired.
 11. Your Portfolio Website
 12. Animated Navigation Toggle
 13. [Country Lookup using IP address](https://github.com/lyndskg/98-Projects-of-Code/tree/main/13.%20IP%20to%20Country)  ![](https://geps.dev/progress/50)
-   - Go (2/3/23 - Present). A lookup tool accepting .txt or .dat files containing IP address information, and returning the corresponding geographical metadata. Supported by Golang's ["iphelper"](https://github.com/safing/portmaster) package, touting buffered I/O functionalities and both JSON and binary encoding. Adapted from [this](https://github.com/johntech-o/iphelper) Git repo. 
+   - Go (2/3/23 - Present). A lookup tool accepting .txt or .dat files containing IP address information, and returning the corresponding geographical metadata. Supported by Golang's ["iphelper"](https://github.com/safing/portmaster) package, touting buffered I/O functionalities and both JSON and binary encoding. Adapted from [JohnTech-O's Git repo](https://github.com/johntech-o/iphelper).
    - Not completely implemented; needs to be extensively tested and debugged.
 
 ### <ins>Bots</ins>
@@ -78,7 +78,7 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
 29. Music Player
 30. Stopwatch App
 31. [URL Shortener](https://github.com/lyndskg/98-Projects-of-Code/tree/main/31.%20URL%20Shortener)  ![](https://geps.dev/progress/80) 
-   - PHP (2/3/23). A simple URL shortener for PHP taking in a URL query parameter to generate short URLs. URLs are saved in a SQL database and accessed via the [PDO extension](https://www.simplilearn.com/tutorials/php-tutorial/pdo-in-php); moreover, HTML responses are generated for all saved URLs. Implementation was strongly guided by the [Shorty](https://github.com/mikecao/shorty) installation.
+   - PHP (2/3/23). A simple URL shortener for PHP taking in a URL query parameter to generate shortened URLs. URLs are further saved in a SQL database and accessed via the [PDO extension](https://www.simplilearn.com/tutorials/php-tutorial/pdo-in-php); moreover, HTML responses are generated for all saved URLs. Implementation was strongly guided by Mike Cao's [Shorty](https://github.com/mikecao/shorty) installation.
    - Fully implemented; needs to be tested and debugged.
 32. Payment System
 33. Meme Generator
@@ -126,7 +126,7 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
 66. Password Generator
 67. Folder Encrypter/Locker
 68. [Password Strength Checker](https://github.com/lyndskg/98-Projects-of-Code/tree/main/68.%20Password%20Strength%20Checker)  ![](https://geps.dev/progress/70)
-   - JavaScript (2/2/23). A JS plug-in used to check how strong a given password is. Built using the npm package ["hsimp-main"](https://www.npmjs.com/package/hsimp-main?activeTab=explore) for Node.js. Code is borrowed from the MIT-licensed "HSIMP" project &mdash; deployed as an official Security.org tool [here](https://www.security.org/how-secure-is-my-password/), with source code available [here](https://github.com/howsecureismypassword/hsimp) and deployed [here](https://www.security.org/how-secure-is-my-password/).
+   - JavaScript (2/2/23). A JS plug-in used to check how strong a given password is. Built using the npm package ["hsimp-main"](https://www.npmjs.com/package/hsimp-main?activeTab=explore) for Node.js. Code is borrowed from the MIT-licensed "How Secure Is My Password?" (HSIMP) project &mdash; as deployed via the official Security.org toolkit [here](https://www.security.org/how-secure-is-my-password/), with source code available at [this Git repo](https://github.com/howsecureismypassword/hsimp). 
    - Almost fully implemented; needs to be tested and debugged.
 
 ### <ins>Simulations, Games, and Game AI</ins>
@@ -136,7 +136,7 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
 71. Risk
 72. Chess 
 73. [Snake](https://github.com/lyndskg/98-Projects-of-Code/tree/main/73.%20Snake)  ![](https://geps.dev/progress/100) ✓ 
-   - Python (2/3/23). A simple simulation of the classic arcade snake game using the cross-platform "Pygame" Python module. Runs in Terminal. Assisted by guides from [Edureka](https://www.edureka.co/blog/snake-game-with-pygame/) and [Geeks for Geeks](https://www.geeksforgeeks.org/snake-game-in-python-using-pygame-module/).
+   - Python (2/3/23). A simple simulation of the classic arcade snake game using the cross-platform "Pygame" Python module. Runs as a fully contained application within Terminal. Implementation was assisted by guides from [Edureka](https://www.edureka.co/blog/snake-game-with-pygame/) and [Geeks for Geeks](https://www.geeksforgeeks.org/snake-game-in-python-using-pygame-module/).
    - Fully implemented and tested.
 74. Tetris
 75. Chess AI
