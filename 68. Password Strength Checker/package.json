@@ -1,0 +1,20 @@
+{
+    "name": "password-strength-checker",
+    "version": "1.0.0",
+    "description": "Password Strength Checker",
+    "author": "Lyndsey Gu",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/lyndskg/98-Projects-of-Code/"
+    },
+    "dependencies": {
+      "hsimp-main": "0.1.9",
+      "hsimp-checks": "0.1.2"
+    },
+    "devDependencies": {
+      "browserify": "8.*",
+      "buster": "0.7.*",
+      "uglify-js": "2.*",
+      "uglifycss": "0.0.11"
+    }
+  }
