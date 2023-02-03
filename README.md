@@ -8,7 +8,7 @@ I'm hoping to gain some more experience with languages I'm currently weak at (or
 I created this repository on 1/20/2023.
 
 <ins>__Latest Update__</ins>:
-As of February 3rd, 2023, I have completed (or at least made a good faith effort at) 6 out of the 98 projects listed below.
+As of February 3rd, 2023, I have completed (... or at least made a good faith effort at... ) 6 out of the 98 projects listed below.
    - Python (3)
    - JavaScript (1)
    - PHP (1)
@@ -30,7 +30,7 @@ As of February 3rd, 2023, I have completed (or at least made a good faith effort
 8. Bandwidth Monitor
 9. Product Landing Page
 10. Create Your Own Blog ✓
-   - Ruby (2/3/23). Employing [Jekyll](https://jekyllrb.com) &mdash; a static site generator written in Ruby &mdash; in order to buaild a simple online blog. Jekyll takes content written in Markdown files, passes it through templates, then spits it out as a complete static HTML-based website, ready to be served. Guides on how to use Jekyll to blog [here](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/), [here](https://www.creativebloq.com/how-to/jekyll-blog), and [here](https://jekyllrb.com/docs/step-by-step/08-blogging/).
+   - Ruby (2/3/23). Employing [Jekyll](https://jekyllrb.com) &mdash; a static site generator written in Ruby &mdash; in order to build a simple, HTML-based online blog. Jekyll takes content written in Markdown files, passes it through specified templates, then spits it out as a complete static website &ndash; ready to be served. Guides on how to use Jekyll to blog can be found [here](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/), [here](https://www.creativebloq.com/how-to/jekyll-blog), and [here](https://jekyllrb.com/docs/step-by-step/08-blogging/).
 11. Your Portfolio Website
 12. Animated Navigation Toggle
 13. Country Lookup using IP address
