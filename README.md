@@ -20,7 +20,8 @@ As of February 3rd, 2023, I have completed 3 out of the 98 projects listed below
 2. HTTP Server ✓
    - Python (1/20/23). A super simple HTTP web server outputting "Hello, World" (or any other arbitrary text) in its  response body. Built using the "socket" Python library, as implemented in [Blog Post by Ruslan](https://ruslanspivak.com/lsbaws-part1/).
 3. Web Scraper
-4. Port Scanner
+4. Port Scanner ✓
+   - Python (2/3/23). A light-weight yet multi-threaded port scanner with both UDP and TCP functionalities. Probes a server or host for open, closed, and/or filtered ports. Can be run on specific ports; otherwise, defaults to the top 1000 ports. Built using the "socket" Python library, with additional support from "threading" and "queue" libraries for threaded programming intents. Largely inspired by [PieScan](https://github.com/m57/piescan/blob/master/piescan.py) and [KPorts](https://github.com/remzmike/python-kports-portscanner/blob/master/kports.py).
 5. Packet Sniffer
 6. P2P File Sharing
 7. Web Search Engine
