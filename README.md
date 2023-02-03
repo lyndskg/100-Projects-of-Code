@@ -22,14 +22,14 @@ As of February 3rd, 2023, I have completed (... or at least made a good faith ef
 2. [HTTP Server](https://github.com/lyndskg/98-Projects-of-Code/tree/main/02.%20HTTP%20Web%20Server) ✓
    - Python (1/20/23). A super simple HTTP web server outputting "Hello, World" (or any other arbitrary text) in its  response body. Built using the "socket" Python library, as implemented in [Blog Post by Ruslan](https://ruslanspivak.com/lsbaws-part1/).
 3. Web Scraper
-4. Port Scanner ✓
+4. [Port Scanner](https://github.com/lyndskg/98-Projects-of-Code/tree/main/04.%20Port%20Scanner) ✓
    - Python (2/3/23). A light-weight yet multi-threaded port scanner with both UDP and TCP functionalities. Probes a server or host for open, closed, and/or filtered ports. Can be run on specific ports; otherwise, defaults to the top 1000 ports. Built using the "socket" Python library, with additional support from "threading" and "queue" libraries for threaded programming intents. Largely inspired by [PieScan](https://github.com/m57/piescan/blob/master/piescan.py) and [KPorts](https://github.com/remzmike/python-kports-portscanner/blob/master/kports.py).
 5. Packet Sniffer
 6. P2P File Sharing
 7. Web Search Engine
 8. Bandwidth Monitor
 9. Product Landing Page
-10. Create Your Own Blog ✓
+10. [Create Your Own Blog](https://github.com/lyndskg/98-Projects-of-Code/tree/main/10.%20Blog) ✓
    - Ruby (2/3/23). Employing [Jekyll](https://jekyllrb.com) &mdash; a static site generator written in Ruby &mdash; in order to build a simple, HTML-based online blog. Jekyll takes content written in Markdown files, passes it through specified templates, then spits it out as a complete static website &ndash; ready to be served. Guides on how to use Jekyll to blog can be found [here](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/), [here](https://www.creativebloq.com/how-to/jekyll-blog), and [here](https://jekyllrb.com/docs/step-by-step/08-blogging/).
 11. Your Portfolio Website
 12. Animated Navigation Toggle
@@ -57,7 +57,7 @@ As of February 3rd, 2023, I have completed (... or at least made a good faith ef
 28. Math Editor
 29. Music Player
 30. Stopwatch App
-31. URL Shortener ✓
+31. [URL Shortener](https://github.com/lyndskg/98-Projects-of-Code/tree/main/31.%20URL%20Shortener) ✓
    - PHP (2/3/23). A simple URL shortener for PHP taking in a URL query parameter to generate short URLs. URLs are saved in a SQL database and accessed via the [PDO extension](https://www.simplilearn.com/tutorials/php-tutorial/pdo-in-php); moreover, HTML responses are generated for all saved URLs. Implementation was strongly guided by the [Shorty](https://github.com/mikecao/shorty) installation.
 32. Payment System
 33. Meme Generator
@@ -104,7 +104,7 @@ As of February 3rd, 2023, I have completed (... or at least made a good faith ef
 65. Password Manager
 66. Password Generator
 67. Folder Encrypter/Locker
-68. Password Strength Checker ✓
+68. [Password Strength Checker](https://github.com/lyndskg/98-Projects-of-Code/tree/main/68.%20Password%20Strength%20Checker) ✓
    - JavaScript (2/2/23). A JS plug-in used to check how strong a given password is. Built using the npm package ["hsimp-main"](https://www.npmjs.com/package/hsimp-main?activeTab=explore) for Node.js. Code is borrowed heavily from the MIT-licensed "HSIMP" project, as implemented [here](https://github.com/howsecureismypassword/hsimp) and deployed [here](https://www.security.org/how-secure-is-my-password/).
 
 ### <ins>Simulations, Games, and Game AI</ins>
@@ -113,7 +113,7 @@ As of February 3rd, 2023, I have completed (... or at least made a good faith ef
 70. Pong AI
 71. Risk
 72. Chess
-73. Snake ✓
+73. [Snake](https://github.com/lyndskg/98-Projects-of-Code/tree/main/73.%20Snake) ✓
    - Python (2/3/23). A simple simulation of the classic arcade snake game using the cross-platform "Pygame" Python module. Runs in Terminal. Assisted by guides from [Edureka](https://www.edureka.co/blog/snake-game-with-pygame/) and [Geeks for Geeks](https://www.geeksforgeeks.org/snake-game-in-python-using-pygame-module/).
 74. Tetris
 75. Chess AI
