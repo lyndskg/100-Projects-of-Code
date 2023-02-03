@@ -5,6 +5,8 @@ Inspired by [aceking007's GitHub post](https://github.com/aceking007/100Projects
 I'm hoping to gain some more experience with languages I'm currently weak at (or have never used), get some general coding practice to refresh and reinforce my understanding of fundamental computer science concepts, and increase the breadth of my overall coding expertise via completing such a diverse array of projects.
 &nbsp;
 
+![alt text](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20201216211829/100-Days-of-Code-–-A-Complete-Guide-For-Beginners-and-Experienced.jpg)
+
 ## Progress (6/98)
 I created this repository on 1/20/2023.
 
