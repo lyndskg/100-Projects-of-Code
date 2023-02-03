@@ -4,13 +4,14 @@ Inspired by [aceking007's GitHub post](https://github.com/aceking007/100Projects
 
 I'm hoping to gain some more experience with languages I'm currently weak at (or have never used), get some general coding practice to refresh and reinforce my understanding of fundamental computer science concepts, and increase the breadth of my overall coding expertise via completing such a diverse array of projects.
 
-## Progress (4/98)
+## Progress (5/98)
 I created this repository on 1/20/2023.
 
 <ins>__Latest Update__</ins>:
-As of February 3rd, 2023, I have completed 4 out of the 98 projects listed below.
+As of February 3rd, 2023, I have completed 5 out of the 98 projects listed below.
    - Python (3)
    - JavaScript (1)
+   - PHP (1)
 
 ## Categories
 
@@ -54,7 +55,8 @@ As of February 3rd, 2023, I have completed 4 out of the 98 projects listed below
 28. Math Editor
 29. Music Player
 30. Stopwatch App
-31. URL Shortener
+31. URL Shortener ✓
+   - PHP (2/3/23). A simple URL shortener for PHP taking in a URL query parameter to generate short URLs. URLs are saved in a SQL database and accessed via the [PDO extension](https://www.simplilearn.com/tutorials/php-tutorial/pdo-in-php); moreover, HTML responses are generated for all saved URLs. Implementation was strongly guided by the [Shorty](https://github.com/mikecao/shorty) installation.
 32. Payment System
 33. Meme Generator
 34. Pomodoro Clock
@@ -101,7 +103,7 @@ As of February 3rd, 2023, I have completed 4 out of the 98 projects listed below
 66. Password Generator
 67. Folder Encrypter/Locker
 68. Password Strength Checker ✓
-   - JavaScript (2/3/23). A JS plug-in used to check how strong a given password is. Built using the npm package ["hsimp-main"](https://www.npmjs.com/package/hsimp-main?activeTab=explore) for Node.js. Code is borrowed heavily from the MIT-licensed "HSIMP" project, as implemented [here](https://github.com/howsecureismypassword/hsimp) and deployed [here](https://www.security.org/how-secure-is-my-password/).
+   - JavaScript (2/2/23). A JS plug-in used to check how strong a given password is. Built using the npm package ["hsimp-main"](https://www.npmjs.com/package/hsimp-main?activeTab=explore) for Node.js. Code is borrowed heavily from the MIT-licensed "HSIMP" project, as implemented [here](https://github.com/howsecureismypassword/hsimp) and deployed [here](https://www.security.org/how-secure-is-my-password/).
 
 ### <ins>Simulations, Games, and Game AI</ins>
 
