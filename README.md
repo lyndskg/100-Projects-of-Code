@@ -20,6 +20,9 @@ As of February 3rd, 2023, I have completed (...or at least have made a good fait
    - PHP (1)
    - Ruby (1)
 
+<img width="508" alt="Screenshot 2023-02-03 at 11 42 34 AM" src="https://user-images.githubusercontent.com/60162813/216658663-5a29e5d1-f4ef-440e-b002-a41d0838c353.png">
+
+
 &nbsp;
 
 ## Categories
