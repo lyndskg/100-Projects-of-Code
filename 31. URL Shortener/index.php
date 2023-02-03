@@ -1,5 +1,5 @@
 <?php
-require './main.php';
+require './shortener.php';
 require './config.php';
 
 $shortener = new Shortener($hostname, $connection);
