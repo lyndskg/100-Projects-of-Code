@@ -2,6 +2,7 @@
 # Figure out what sniffer thread (s_thread) vs r_thread is
 # UDP signature
 
+import errno
 import sys
 import os
 import signal
@@ -122,6 +123,21 @@ def parse_ports(arg):
 def date_time():
     return datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
 
+class ICMP(ctypes.Structure):
+	_fields_ = [
+	('type',		 ctypes.c_ubyte),
+	('code',		 ctypes.c_ubyte),
+	('checksum',     ctypes.c_ushort),
+	('unused',       ctypes.c_ushort),
+	('next_hop_mtu', ctypes.c_ushort)
+	]
+
+	def __new__(self, socket_buffer):
+		return self.from_buffer_copy(socket_buffer)
+
+	def __init__(self, socket_buffer):
+		pass
+
 # Instantiates the Scanner class
 class Scanner(object):
     # Instantiates the TCPScanner sub-class
@@ -183,14 +199,32 @@ class Scanner(object):
     class UDPScanner(threading.Thread):
         def __init__(self, target, portqueue):
             threading.Thread.__init__(self)
+            self.status = None
             self.target = target
             self.portqueue = portqueue
+
+        def handle_econn_refused(self):
+            self.status = False
+            self.socket.close()
             
+            if VERBOSE_EXTRA:
+                sys.stdout.write('UDP port closed.', self.port)
+        
+        def handle_receive(self):
+            self.status = True
+            self.socket.close()
+            
+            if VERBOSE_EXTRA:
+                sys.stdout.write('UDP port open.', self.port)
+
         def run(self):
             while 1:
                 if self.portqueue.empty() or exit_event.is_set():
                     break
                     
+                if self.status is not None: 
+                    continue
+
                 target = self.target
                 port = self.portqueue.get()
                 
@@ -198,25 +232,44 @@ class Scanner(object):
                     conn = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
                     conn.settimeout(float(timeout/1000))
                     
-                    if (str(port) in UDP_sig): 
-                        conn.sendto(UDP_sig[str(port)], (target,port))
-                    else:
-                        conn.sendto(UDP_sig["piescan"], (target,port))
+                    conn.connect((target, port))
+
+                    try: 
+                        conn.send('\x00')
+                    except socket.error as ex:
+                        if ex.errno == errno.ECONNREFUSED:
+                            self.handle_econn_refused()
+                            break
+                        else:
+                            raise
                     
-                    d = conn.recv(1024)
-                
-                    if (len(d) > 0):
-                        if VERBOSE:
-                            sys.stdout.write("[%s] %s - %d/udp open (Data recieved)\n" % (date_time(), target, port))
-                        ports_ident["open"].append(port)
+                    try: 
+                        d = conn.recvfrom(8192)
+
+                        if (len(d) > 0):
+                            if VERBOSE:
+                                sys.stdout.write("[%s] %s - %d/udp open (Data recieved)\n" % (date_time(), target, port))
+                            ports_ident["open"].append(port)
+
+                        self.handle_receive()
+                        continue
+
+                    except socket.error as ex:
+                        if ex.errno == errno.ECONNREFUSED:
+                            if VERBOSE_EXTRA:
+                                sys.stdout.write('UDP recv failed.', self.port)
+                            continue
+                        elif ex.errno != errno.EAGAIN:
+                            if VERBOSE_EXTRA:
+                                sys.stdout.write('UDP recv failed.', self.port)
+                            raise
+                    
                 
                 except socket.timeout:
                     if port not in ports_ident["closed"]:
                         ports_ident["open|filtered"].append(port)
                 
                 conn.close()
-
-
 
 def sniffer_thread(target):
     sniffer = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket.IPPROTO_ICMP)
@@ -233,7 +286,7 @@ def sniffer_thread(target):
             raw_buffer = sniffer.recvfrom(65565)[0]		
             ip_header = raw_buffer[0:20]
             dst_port = struct.unpack(">h", raw_buffer[0x32:0x34])[0]
-            iph = struct.unpack('!BBHHHBBH4s4s' , ip_header)
+            iph = struct.unpack('!BBHHHBBH4s4s', ip_header)
 
 			# Create our IP structure
             version_ihl = iph[0]
