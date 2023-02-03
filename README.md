@@ -97,7 +97,8 @@ As of January 20th, 2023, I have completed 1 out of the 98 projects listed below
 65. Password Manager
 66. Password Generator
 67. Folder Encrypter/Locker
-68. Password Strength Checker
+68. Password Strength Checker ✓
+- JavaScript (2/3/23). Built using the npm package ["hsimp-main"](https://www.npmjs.com/package/hsimp-main?activeTab=explore) for Node.js. Code is borrowed heavily from the MIT-licensed "HSIMP project," as implemented [here](https://github.com/howsecureismypassword/hsimp).
 
 ### <ins>Simulations, Games, and Game AI</ins>
 
