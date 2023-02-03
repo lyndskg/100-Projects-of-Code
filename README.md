@@ -98,7 +98,7 @@ As of February 3rd, 2023, I have completed 2 out of the 98 projects listed below
 66. Password Generator
 67. Folder Encrypter/Locker
 68. Password Strength Checker ✓
-   - JavaScript (2/3/23). A JS plug-in used to check how strong a given password is. Built using the npm package ["hsimp-main"](https://www.npmjs.com/package/hsimp-main?activeTab=explore) for Node.js. Code is borrowed heavily from the MIT-licensed "HSIMP" project, as implemented [here](https://github.com/howsecureismypassword/hsimp).
+   - JavaScript (2/3/23). A JS plug-in used to check how strong a given password is. Built using the npm package ["hsimp-main"](https://www.npmjs.com/package/hsimp-main?activeTab=explore) for Node.js. Code is borrowed heavily from the MIT-licensed "HSIMP" project, as implemented [here](https://github.com/howsecureismypassword/hsimp) and deployed [here](https://www.security.org/how-secure-is-my-password/).
 
 ### <ins>Simulations, Games, and Game AI</ins>
 
