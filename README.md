@@ -126,7 +126,7 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
 66. Password Generator
 67. Folder Encrypter/Locker
 68. [Password Strength Checker](https://github.com/lyndskg/98-Projects-of-Code/tree/main/68.%20Password%20Strength%20Checker)  ![](https://geps.dev/progress/70)
-   - JavaScript (2/2/23). A JS plug-in used to check how strong a given password is. Built using the npm package ["hsimp-main"](https://www.npmjs.com/package/hsimp-main?activeTab=explore) for Node.js. Code is borrowed heavily from the MIT-licensed "HSIMP" project, as implemented [here](https://github.com/howsecureismypassword/hsimp) and deployed [here](https://www.security.org/how-secure-is-my-password/).
+   - JavaScript (2/2/23). A JS plug-in used to check how strong a given password is. Built using the npm package ["hsimp-main"](https://www.npmjs.com/package/hsimp-main?activeTab=explore) for Node.js. Code is borrowed from the MIT-licensed "HSIMP" project &mdash; deployed as an official Security.org tool [here](https://www.security.org/how-secure-is-my-password/), with source code available [here](https://github.com/howsecureismypassword/hsimp) and deployed [here](https://www.security.org/how-secure-is-my-password/).
    - Almost fully implemented; needs to be tested and debugged.
 
 ### <ins>Simulations, Games, and Game AI</ins>
