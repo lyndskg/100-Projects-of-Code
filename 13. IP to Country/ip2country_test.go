@@ -6,7 +6,7 @@ import (
 )
 
 func TestCreate(t *testing.T) {
-	err := MakeDat("ip.dat")
+	err := makeDat("ip.dat")
 	if err != nil {
 		t.Error(err)
 	}
