@@ -8,7 +8,7 @@ I'm hoping to gain some more experience with languages I'm currently weak at (or
 I created this repository on 1/20/2023.
 
 <ins>__Latest Update__</ins>:
-As of February 3rd, 2023, I have completed (...or have at least made a good faith effort at) 6 out of the 98 projects listed below.
+As of February 3rd, 2023, I have completed (... or have at least made a good faith effort at...) 6 out of the 98 projects listed below.
 
 <ins>__Primary Language Breakdown__</ins>: (6)
    - Python (3)
