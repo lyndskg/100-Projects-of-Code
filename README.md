@@ -4,11 +4,11 @@ Inspired by [aceking007's GitHub post](https://github.com/aceking007/100Projects
 
 I'm hoping to gain some more experience with languages I'm currently weak at (or have never used), get some general coding practice to refresh and reinforce my understanding of fundamental computer science concepts, and increase the breadth of my overall coding expertise via completing such a diverse array of projects.
 
-## Progress (1/98)
+## Progress (2/98)
 I created this repository on 1/20/2023.
 
 <ins>__Latest Update__</ins>:
-As of January 20th, 2023, I have completed 1 out of the 98 projects listed below.
+As of February 3rd, 2023, I have completed 2 out of the 98 projects listed below.
 
 ## Categories
 
@@ -98,7 +98,7 @@ As of January 20th, 2023, I have completed 1 out of the 98 projects listed below
 66. Password Generator
 67. Folder Encrypter/Locker
 68. Password Strength Checker ✓
-- JavaScript (2/3/23). Built using the npm package ["hsimp-main"](https://www.npmjs.com/package/hsimp-main?activeTab=explore) for Node.js. Code is borrowed heavily from the MIT-licensed "HSIMP project," as implemented [here](https://github.com/howsecureismypassword/hsimp).
+- JavaScript (2/3/23). A JS plug-in used to check how strong a given password is. Built using the npm package ["hsimp-main"](https://www.npmjs.com/package/hsimp-main?activeTab=explore) for Node.js. Code is borrowed heavily from the MIT-licensed "HSIMP project," as implemented [here](https://github.com/howsecureismypassword/hsimp).
 
 ### <ins>Simulations, Games, and Game AI</ins>
 
