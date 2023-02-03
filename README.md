@@ -5,7 +5,6 @@ Inspired by [aceking007's GitHub post](https://github.com/aceking007/100Projects
 I'm hoping to gain some more experience with languages I'm currently weak at (or have never used), get some general coding practice to refresh and reinforce my understanding of fundamental computer science concepts, and increase the breadth of my overall coding expertise via completing such a diverse array of projects.  
 
 &nbsp;
-&nbsp;
 
 ## Progress (6/98)
 I created this repository on 1/20/2023.
@@ -19,7 +18,6 @@ As of February 3rd, 2023, I have completed (...or at least have made a good fait
    - PHP (1)
    - Ruby (1)  
 
-&nbsp;
 &nbsp;
 
 ## Categories
