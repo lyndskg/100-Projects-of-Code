@@ -15,6 +15,7 @@ I created this repository on 1/20/2023.
 As of February 3rd, 2023, I have completed (...or at least have made a good faith effort at...) 6 out of the 98 projects listed below.
 
 <ins>__Primary Language Breakdown__</ins>: (6)  
+
 <img width="508" alt="Primary Language Breakdown - 2/3/23" src="https://user-images.githubusercontent.com/60162813/216658663-5a29e5d1-f4ef-440e-b002-a41d0838c353.png">
    - Python (3)
    - JavaScript (1)
