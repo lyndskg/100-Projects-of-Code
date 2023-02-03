@@ -9,10 +9,10 @@ I'm hoping to gain some more experience with languages I'm currently weak at (or
 &nbsp;
 
 ## Progress (6/98)
-I created this repository on 1/20/2023.
+I created this repository on Friday, January 1st, 2023.
 
 <ins>__Latest Update__</ins>:
-As of February 3rd, 2023, I have completed (...or at least have made a good faith effort at...) 6 out of the 98 projects listed below.
+As of Friday, February 3rd, 2023, I have completed (...or at least have made a good faith effort at...) 6 out of the 98 projects listed below.
 
 <ins>__Primary Language Breakdown__</ins>: (6)  
 
