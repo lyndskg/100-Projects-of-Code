@@ -19,7 +19,7 @@ As of February 3rd, 2023, I have completed (... or at least made a good faith ef
 ### <ins>General Web & Networking Projects</ins>
 
 1. FTP Client
-2. HTTP Server ✓
+2. [HTTP Server](https://github.com/lyndskg/98-Projects-of-Code/tree/main/02.%20HTTP%20Web%20Server) ✓
    - Python (1/20/23). A super simple HTTP web server outputting "Hello, World" (or any other arbitrary text) in its  response body. Built using the "socket" Python library, as implemented in [Blog Post by Ruslan](https://ruslanspivak.com/lsbaws-part1/).
 3. Web Scraper
 4. Port Scanner ✓
