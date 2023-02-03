@@ -1,12 +1,12 @@
 {
     "name": "password-strength-checker",
     "version": "1.0.0",
-    "homepage": "https://github.com/lyndskg/98-Projects-of-Code/",
+    "homepage": "https://github.com/lyndskg/98-Projects-of-Code/tree/main/68.%20Password%20Strength%20Checker",
     "authors": [
       "Lyndsey Gu <lyndsey.gu@gmail.com>"
     ],
     "description": "A password strength checker to add to your own site.",
-    "main": "build/hsimp.min.js",
+    "main": "build/checker.js",
     "moduleType": [
       "amd",
       "globals",
