@@ -224,11 +224,10 @@ class Shortener {
     public function allow($ip) {
         if (is_array($ip)) {
             $this->whitelist = array_merge($this->whitelist, $ip);
-        }
-        else {
+        } else {
             array_push($this->whitelist, $ip);
-        }
-    }
+        } // if-else
+    } // allow()
 
     // Starts the program.
     public function run() {
@@ -237,18 +236,18 @@ class Shortener {
 
         if (isset($_GET['url'])) {
           $url = urldecode($_GET['url']);
-        }
+        } // if
 
         $format = '';
         if (isset($_GET['format'])) {
           $format = strtolower($_GET['format']);
-        }
+        } // if
 
         // If adding a new URL
         if (!empty($url)) {
             if (!empty($this->whitelist) && !in_array($_SERVER['REMOTE_ADDR'], $this->whitelist)) {
                 $this->error('Not allowed.');
-            }
+            } // if
 
             if (preg_match('/^http[s]?\:\/\/[\w]+/', $url)) {
                 $result = $this->find($url);
@@ -259,10 +258,9 @@ class Shortener {
                     $id = $this->store($url);
 
                     $url = $this->hostname.'/'.$this->encode($id);
-                }
-                else {
+                } else {
                     $url = $this->hostname.'/'.$this->encode($result['id']);
-                }
+                } // if-else
 
                 // Display the shortened url
                 switch ($format) {
@@ -288,12 +286,12 @@ class Shortener {
                     // HTML
                     default:
                         exit('<a href="'.$url.'">'.$url.'</a>');
-                }
-            }
-            else {
+                } // switch
+            } else {
                 $this->error('Bad input.');
-            }
-        }
+            } // if-else
+        } // if (!empty($url))
+
         // Lookup by id
         else {
             if (empty($q)) {
@@ -313,8 +311,8 @@ class Shortener {
                 }
                 else {
                     $this->not_found();
-                }
-            }
-        }
-    }
-}
+                } // if-else
+            } // if
+        } // if-else
+    } // run()
+} // class Shortener
