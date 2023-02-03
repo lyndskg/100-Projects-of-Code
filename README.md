@@ -107,7 +107,7 @@ As of February 3rd, 2023, I have completed 2 out of the 98 projects listed below
 71. Risk
 72. Chess
 73. Snake ✓
-   - Python (2/3/23). A simple simulation of the classic arcade snake game using the cross-platform "Pygame" Python module. Assisted by guides from [Edureka](https://www.edureka.co/blog/snake-game-with-pygame/) and [Geeks for Geeks](https://www.geeksforgeeks.org/snake-game-in-python-using-pygame-module/).
+   - Python (2/3/23). A simple simulation of the classic arcade snake game using the cross-platform "Pygame" Python module. Runs in Terminal. Assisted by guides from [Edureka](https://www.edureka.co/blog/snake-game-with-pygame/) and [Geeks for Geeks](https://www.geeksforgeeks.org/snake-game-in-python-using-pygame-module/).
 74. Tetris
 75. Chess AI
 76. Snake AI
