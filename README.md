@@ -4,14 +4,15 @@ Inspired by [aceking007's GitHub post](https://github.com/aceking007/100Projects
 
 I'm hoping to gain some more experience with languages I'm currently weak at (or have never used), get some general coding practice to refresh and reinforce my understanding of fundamental computer science concepts, and increase the breadth of my overall coding expertise via completing such a diverse array of projects.
 
-## Progress (5/98)
+## Progress (6/98)
 I created this repository on 1/20/2023.
 
 <ins>__Latest Update__</ins>:
-As of February 3rd, 2023, I have completed 5 out of the 98 projects listed below.
+As of February 3rd, 2023, I have completed (or at least made a good faith effort at) 6 out of the 98 projects listed below.
    - Python (3)
    - JavaScript (1)
    - PHP (1)
+   - Ruby (1)
 
 ## Categories
 
@@ -28,7 +29,8 @@ As of February 3rd, 2023, I have completed 5 out of the 98 projects listed below
 7. Web Search Engine
 8. Bandwidth Monitor
 9. Product Landing Page
-10. Create Your Own Blog
+10. Create Your Own Blog ✓
+   - Ruby (2/3/23). Employing [Jekyll](https://jekyllrb.com) &mdash; a static site generator written in Ruby &mdash; in order to buaild a simple online blog. Jekyll takes content written in Markdown files, passes it through templates, then spits it out as a complete static HTML-based website, ready to be served. Guides on how to use Jekyll to blog [here](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/), [here](https://www.creativebloq.com/how-to/jekyll-blog), and [here](https://jekyllrb.com/docs/step-by-step/08-blogging/).
 11. Your Portfolio Website
 12. Animated Navigation Toggle
 13. Country Lookup using IP address
