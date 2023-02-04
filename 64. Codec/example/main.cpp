@@ -1,5 +1,5 @@
-#include <cppcodec/base32_crockford.hpp>
-#include <cppcodec/base64_rfc4648.hpp>
+#include <src/base32_crockford.hpp>
+#include <src/base64_rfc4648.hpp>
 #include <iostream>
 
 using namespace std;
