@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-    Introducing Jekyll, a Ruby plugin for creating simple blog-aware, static sites.
+    Introducing Jekyll, a Ruby plugin for creating "simple, blog-aware, static sites."
 </p>
 
 
