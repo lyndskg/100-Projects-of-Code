@@ -1,12 +1,13 @@
 # 10.  Blog 
 
 <p align="center">
-<img width="470" alt="URL Components" src="https://user-images.githubusercontent.com/60162813/216759892-ac169158-87a1-4542-9780-50646e4b094b.png"> 
+<img width="540" alt="Jekyll for Ruby" src="https://www.mikekasberg.com/images/posts/jekyll-classifier-reborn-ruby-3-full.jpg"> 
 </p>
 
 <p align="center">
-    Basic structure of a URL. 
+    Introducing Jekyll, a Ruby plugin for creating simple blog-aware, static sites.
 </p>
+
 
 ## Overview 
 
@@ -30,7 +31,9 @@ Core website configuration data is found at "_config.yml" &mdash; a good next st
 
 ## Usage
 
-Run this blog via Jekyll on the command line. First, navigate to the working project directory using the "cd" command, as follows:
+Run this blog via Jekyll on the command line. 
+
+First, navigate to the working project directory using the "cd" command, as follows:
 
 ```
 $ cd "10. Blog" 
@@ -42,7 +45,9 @@ Then, simply build the site and make it available on a local server like so:
 $ bundle exec jekyll serve
 ```
 
-And congrats! Your blog is now available to access and browse at the URL "http://localhost:4000." However, if you'd like to serve this program on a different host or port, you can simply use the "--host" and/or "--port" switches:
+Et voilà! Your blog is now available to access and browse at the URL "http://localhost:4000."
+
+However, if you'd like to serve this program on a different host or port, you can simply use the "--host" and/or "--port" switches:
 
 ```
 # Site 1
@@ -53,5 +58,3 @@ $ bundle exec jekyll serve
 $ bundle exec jekyll serve --host myhost --port 1234
 # => "http://myhost:1234"
 ```
-
-Et voilà.
