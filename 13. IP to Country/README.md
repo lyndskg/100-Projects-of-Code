@@ -8,7 +8,7 @@
 
 <ins>__Language__</ins>: Go 
 
-<ins>__Completed on__</ins>: February 3rd, 2023 &mdash; PRESENT 
+<ins>__Completed on__</ins>: February 3rd, 2023 &mdash; PRESENT (Incomplete)
 
 <b>IP2Country</b> is a lookup tool that accepts .txt or .dat files containing IP address information, and returns any corresponding geographical metadata (*e.g.* country, province, city, zone). 
 
@@ -28,10 +28,10 @@ IP2Country is still a work in progress! Its implementation is not complete yet, 
 
 Run IP2Country with Go on the command line. The program takes a single command line argument &mdash; the input file's name (can be of form .dat or .txt). 
 
-It should look something like this:
+When ran, it should look something like this:
 
 ```
 $ go run IP2Country.go input.txt
 ```
 
-The implementation and formatting of IP2Country's output is still not completely determined yet, but I will update its usage information once I have a chance to sort that out. 
+The implementation and formatting of IP2Country's output is still not completely determined yet, but I will update its usage information here as soon as I have a chance to sort that out. 
