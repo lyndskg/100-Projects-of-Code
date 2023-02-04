@@ -1,6 +1,8 @@
 # 2.  HTTP Web Server
 
+<p align="center">
 <img width="508" alt="Primary Language Breakdown - 2/3/23" src="https://user-images.githubusercontent.com/60162813/216759892-ac169158-87a1-4542-9780-50646e4b094b.png"> 
+</p>
 
 ## Overview 
 
