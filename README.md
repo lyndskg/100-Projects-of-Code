@@ -8,13 +8,13 @@ I'm hoping to gain some more experience with languages I'm currently weak at (or
 
 &nbsp;
 
-## Progress (6.5/98)
+## Progress (7.0/98)
 I created this repository on Friday, January 20th, 2023.
 
 <ins>__Latest Update__</ins>:
 As of Friday, February 3rd, 2023, I have completed (...or at least have made a good faith effort at &ndash; i.e. 70% or more completion level) roughly <b>6.5</b> out of the <b>98</b> projects listed below.
 
-Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/tree/main/13.%20IP%20to%20Country) &mdash; a lookup tool for converting IP addresses to precise geographical metadata (i.e. country, region, city).  
+Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/tree/main/13.%20IP%20to%20Country) &mdash; a lookup tool for converting IP addresses to precise geographical metadata (i.e. country, region, city). At the same time, I have also been tweaking the implementation of [#64](https://github.com/lyndskg/98-Projects-of-Code/tree/main/64.%20Codec) &mdash; a C++11 header library of Codec software supporting many encoding schemes. 
 
 <ins>__Primary Language Breakdown__</ins>: (6.5)  
 
@@ -121,7 +121,9 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
 
 ### <ins>Cryptography</ins>
 
-64. Codec Software
+64. [Codec Software](https://github.com/lyndskg/98-Projects-of-Code/tree/main/64.%20Codec) ![](https://geps.dev/progress/50)
+   - C++ (2/3/23 - Present). A header-only C++11 library comprised of codec software used to decode/encode various binary-to-text encoding schemes. Currently, this codec supports base64, base64url, base32, base32hex, and hex (AKA base16) &mdash; as specified in RFC 4648 and Crockford's base32. This is quite a hefty project, so its actual implementation and framework are largely based on Tplgy's [CppCodec](https://github.com/tplgy/cppcodec) &mdash; which offers a consistent, flexible API.
+   - Almost fully implemented; needs to be commented, tested, and debugged.
 65. Password Manager
 66. Password Generator
 67. Folder Encrypter/Locker
