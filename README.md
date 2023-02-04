@@ -123,7 +123,7 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
 ### <ins>Cryptography</ins>
 
 64. [Codec Software](https://github.com/lyndskg/98-Projects-of-Code/tree/main/64.%20Codec) ![](https://geps.dev/progress/50)
-   - C++ (2/3/23 - Present). A header-only C++11 library comprised of codec software used to decode/encode various binary-to-text encoding schemes. Currently, this codec supports base64, base64url, base32, base32hex, and hex (AKA base16) &mdash; as specified in RFC 4648 and Crockford's base32. This is quite a hefty project, so its actual implementation and framework are largely based on Tplgy's [CppCodec](https://github.com/tplgy/cppcodec) &mdash; which offers a consistent, flexible API.
+   - C++ (2/3/23 - Present). A header-only C++11 library comprised of codec software used to decode/encode various binary-to-text encoding schemes. Currently, this codec supports base64, base64url, base32, base32hex, and hex (AKA base16) &mdash; in accordance with RFC 4648 and [Crockford's base32](http://www.crockford.com/base32.html). This ended up being quite a hefty project, so its actual implementation and framework are templated and largely based on Tplgy's [CppCodec](https://github.com/tplgy/cppcodec) &mdash; which offers a consistent, flexible API.
    - Almost fully implemented; needs to be commented, tested, and debugged.
 65. Password Manager
 66. Password Generator
