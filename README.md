@@ -16,7 +16,7 @@ As of Friday, February 3rd, 2023, I have completed (...or at least have made a g
 
 Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/tree/main/13.%20IP%20to%20Country) &mdash; a lookup tool for converting IP addresses to precise geographical metadata (i.e. country, region, city). At the same time, I have also been tweaking and finalizing my implementation of [#64](https://github.com/lyndskg/98-Projects-of-Code/tree/main/64.%20Codec) &mdash; a C++11 header library of codec software supporting multiple different encoding schemes. 
 
-<ins>__Primary Language Breakdown__</ins>: (6.5)  
+<ins>__Primary Language Breakdown__</ins>: (7)  
 
 <img width="508" alt="Primary Language Breakdown - 2/3/23" src="https://user-images.githubusercontent.com/60162813/216700994-382d7d3c-723f-493d-b3de-86c806810bb3.png">
 
@@ -25,6 +25,7 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
    - PHP (1)
    - Ruby (1)
    - Go (0.5)
+   - C++ (0.5)
    
 
 &nbsp;
