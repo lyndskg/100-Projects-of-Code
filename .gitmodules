@@ -1,0 +1,3 @@
+[submodule "64. Codec/test/Catch2"]
+	path = 64. Codec/test/Catch2
+	url = https://github.com/catchorg/Catch2/
