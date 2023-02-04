@@ -22,4 +22,4 @@ $ python3 HTTPServer.py
 Serving HTTP on port 8888 ... 
 ```
 
-Then, simply navigate to your Web browser's address bar and type in the URL "http://localhost:8888/hello." S
+Then, simply navigate to your Web browser's address bar and type in the following URL: "http://localhost:8888/hello." That's it!
