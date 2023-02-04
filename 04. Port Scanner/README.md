@@ -1,11 +1,11 @@
 # 4. Port Scanner
 
 <p align="center">
-<img width="470" alt="Port Scanning" src="https://www.networkcomputing.com/sites/default/files/image%202_3.jpg"> 
+<img width="600" alt="Port Scanning" src="https://www.networkcomputing.com/sites/default/files/image%202_3.jpg"> 
 </p>
 
 <p align="center">
-    A diagram showing the TCP interactions that take place when a zombie host is used to scan an open port.
+    A diagram modeling the TCP interactions that take place when a zombie host is used to scan an open port.
 </p>
 
 ## Overview 
@@ -14,17 +14,21 @@
 
 <ins>__Completed on__</ins>: February 3rd, 2023
 
-<b>PortWine</b> is a light-weight yet multi-threaded port scanner with support for both UDP and TCP protocols. It probes a server or host for open, closed, and/or filtered ports. Moreover, it can be run on any arbitrary ports &mdash; taking in a list or range of ports of your choosing as an optional command line argument. Otherwise, <b>PortWine</b> defaults its scanning space to the top 1000 ports. 
+<b>PortWine</b> is a light-weight yet multi-threaded port scanner with support for both UDP and TCP protocols. It probes a server or host for open, closed, and/or filtered ports. Moreover, it can be run on any arbitrary ports of your choosing &mdash; taking in a list or range of ports as an optional command line argument. Otherwise, <b>PortWine</b> defaults its scanning space to the top 1000 ports. 
 
-Built using the "socket" Python library, with additional support from Python's "threading" and "queue" libraries for threaded programming functionalities. Implementation was largely inspired by [M57's PieScan](https://github.com/m57/piescan/blob/master/piescan.py) and [Remzmike's KPorts](https://github.com/remzmike/python-kports-portscanner/blob/master/kports.py).
+Built using the "socket" Python library, with additional support from Python's "threading" and "queue" libraries for threaded programming functionalities. 
+
+Implementation was largely inspired by [M57's PieScan](https://github.com/m57/piescan/blob/master/piescan.py) and [Remzmike's KPorts](https://github.com/remzmike/python-kports-portscanner/blob/master/kports.py).
 
 ## To Do
 
 PortWine is fully implemented, but still needs to be tested and debugged.
 
-## How to Run
+## Usage
 
-Simply run portwine.py on the command line. It takes in one <b>mandatory</b> (*i.e.*, the target IP) and 5 <b>optional</b> (*i.e.*, port number(s), scan type, number of threads, verbose mode, timeout) command line arguments. It should look something like this:
+Simply run "portwine.py" on the command line. The program takes <b>one mandatory</b> (*i.e.* the target IP) and <b>five optional</b> (*i.e.* port number(s), scan type, number of threads, verbose mode, timeout) command line arguments. 
+
+It should look something like this:
 
 ```
 root@ip # ./portwine.py 
