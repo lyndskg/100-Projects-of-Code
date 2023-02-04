@@ -10,9 +10,9 @@
 
 <ins>__Completed on__</ins>: February 3rd, 2023
 
-This is a simple URL shortener for PHP taking in a URL query parameter in order to generate shortened URLs. The URL path to be shortened is first converted into an integer ID, then padded and encoded using an MD5 hash &mdash; which can be calculated with an optional salt value for improved security.
+This is a simple URL shortener built for PHP that takes in a URL query parameter in order to(you guessed it!) ...generate a shortened URL. The URL path to be shortened is first converted into an integer ID, then padded and encoded using an MD5 hash &mdash; which can be calculated with an optional salt value for potentially improved security.
 
-URLs are further saved in a SQL database (aptly, `database.sql`) and retrieved via the [PDO extension](https://www.simplilearn.com/tutorials/php-tutorial/pdo-in-php) &mdash; a lightweight, consistent framework for accessing databases in PHP. Moreover, `HTML` responses are generated for all saved URLs, but the response format can be altered to support `XML`, `.txt`, and `JSON` as well.
+URLs are further saved in a SQL database (aptly named `database.sql`) and retrieved via the [PDO extension](https://www.simplilearn.com/tutorials/php-tutorial/pdo-in-php) &mdash; a lightweight, consistent framework for accessing databases in PHP. Moreover, `HTML` responses are generated for all saved URLs, but the response format can be altered to support `XML`, `.txt`, and `JSON` as well.
 
 Implementation is based on Mike Cao's [Shorty](https://github.com/mikecao/shorty) installation.
 
