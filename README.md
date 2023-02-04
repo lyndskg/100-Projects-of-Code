@@ -12,13 +12,13 @@ I'm hoping to gain some more experience with languages I'm currently weak at (or
 I created this repository on Friday, January 20th, 2023.
 
 <ins>__Latest Update__</ins>:
-As of Friday, February 3rd, 2023, I have completed (...or at least have made a good faith effort at &ndash; i.e. 70% or more completion level) roughly <b>7</b> out of the <b>98</b> projects listed below.
+As of Saturday, February 4th, 2023, I have completed (...or at least have made a good faith effort at &ndash; i.e. 70% or more completion level) roughly <b>7</b> out of the <b>98</b> projects listed below.
 
 Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/tree/main/13.%20IP%20to%20Country) &mdash; a lookup tool for converting IP addresses to precise geographical metadata (i.e. country, region, city). At the same time, I have also been tweaking and finalizing my implementation of [#64](https://github.com/lyndskg/98-Projects-of-Code/tree/main/64.%20Codec) &mdash; a C++11 header library of codec software supporting multiple different encoding schemes. 
 
 <ins>__Primary Language Breakdown__</ins>: (7)  
 
-<img width="508" alt="Primary Language Breakdown - 2/3/23" src="https://user-images.githubusercontent.com/60162813/216700994-382d7d3c-723f-493d-b3de-86c806810bb3.png">
+<img width="508" alt="Primary Language Breakdown - 2/3/23" src="https://user-images.githubusercontent.com/60162813/216758973-accdd104-4922-40f8-a7d6-71399ec98b98.png">
 
    - Python (3)
    - JavaScript (1)
