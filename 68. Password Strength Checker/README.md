@@ -1,11 +1,7 @@
 # 68. Password Strength Checker
 
 <p align="center">
-<img width="470" alt="URL Components" src="https://user-images.githubusercontent.com/60162813/216759892-ac169158-87a1-4542-9780-50646e4b094b.png"> 
-</p>
-
-<p align="center">
-    Basic structure of a URL. 
+<img width="600" alt="HSIMP" src="https://techstacker.com/static/cd64a84f932dfc7a3f5e44fd02828ae3/12d0d/how-to-test-how-secure-your-password-is.jpg"> 
 </p>
 
 ## Overview 
@@ -88,7 +84,7 @@ Each check result is an object with three properties:
 ```
 
 
-### Currying
+## Currying
 
 The `checker` function supports currying. This means you can set the options once and then use the returned function to setup more than one input:
 
