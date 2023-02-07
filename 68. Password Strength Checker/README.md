@@ -23,11 +23,80 @@ Almost fully implemented; needs to be tested and debugged.
 
 ## Usage
 
-Run HTTPServer.py with Python3 on the command line. It should look something like this:
+The `checker` function takes two arguments: a configuration object and an HTML `<input>` element
 
-```
-$ python3 HTTPServer.py
-Serving HTTP on port 8888 ... 
+```javascript
+checker({
+    options: {
+        calculationsPerSecond: 1e10, // 10 billion,
+        good: 31557600e3, // 1,000 years
+        ok: 31557600 // 1 year
+    },
+    outputTime: function (time, input) {
+        console.log(time, input);
+    },
+    outputChecks: function (checks, input) {
+        console.log(checks, input);
+    }
+}, document.getElementById("password"));
 ```
 
-Then, simply navigate to your Web browser's address bar and type in the following URL: "http://localhost:8888/hello." That's it!
+### Configuration
+
+The configuration object supports three properties:
+
+- `options`: an object of options that affect calculations
+- `outputTime`: a function that is passed the length of time it would take to crack the given password
+- `outputChecks`: a function that is passed a list of results from various checks
+
+#### `options`
+
+Currently there are three supported options:
+
+- `calculationsPerSecond`: the assumed number of calculations per second a cracker could make (default: 10e9 - 10 billion)
+- `good`: the minimum time (in seconds) that a "good" (green) password would take to crack (default: 31557600e6 - 1 million years)
+- `ok`: the minimum time (in seconds) that an "ok" (orange) password would take to crack (default: 31557600 - 1 year)
+
+#### `outputTime`
+
+The `outputTime` function is passed two variables: the time it would take to crack the password (as a human-readable string) and (optionally) the input which it refers to.
+
+```javascript
+var renderTime = function (time, input) {
+    document.getElementById("password-strength").innerHTML = time;
+}
+
+hsimp({ outputTime: renderTime }, document.getElementById("password"));
+```
+
+#### `outputChecks`
+
+The `outputChecks` function is passed two variables: an array of check results and (optionally) the input which it refers to.
+
+Each check result is an object with three properties:
+
+- `name`: the check name/title
+- `message`: some explanatory text
+- `level`: the severity level (insecure, warning, notice, achievement)
+
+```javascript
+{
+    name: "Length: Very Short",
+    message: "Your password is very short. The longer a password is the more secure it will be.",
+    level: "warning"
+}
+```
+
+
+### Currying
+
+The `hsimp` function supports currying. This means you can set the options once and then use the returned function to setup more than one input:
+
+```javascript
+var attachHSIMP = hsimp({
+    // shared options here
+});
+
+attachHSIMP(document.getElementById("input-1"));
+attachHSIMP(document.getElementById("input-2"));
+```
