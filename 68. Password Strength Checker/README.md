@@ -41,7 +41,7 @@ checker({
 }, document.getElementById("password"));
 ```
 
-### Configuration
+## Configuration
 
 The configuration object supports three properties:
 
@@ -49,7 +49,7 @@ The configuration object supports three properties:
 - `outputTime`: a function that is passed the length of time it would take to crack the given password
 - `outputChecks`: a function that is passed a list of results from various checks
 
-#### `options`
+### `options`
 
 Currently there are three supported options:
 
@@ -57,7 +57,7 @@ Currently there are three supported options:
 - `good`: the minimum time (in seconds) that a "good" (green) password would take to crack (default: 31557600e6 - 1 million years)
 - `ok`: the minimum time (in seconds) that an "ok" (orange) password would take to crack (default: 31557600 - 1 year)
 
-#### `outputTime`
+### `outputTime`
 
 The `outputTime` function is passed two variables: the time it would take to crack the password (as a human-readable string) and (optionally) the input which it refers to.
 
@@ -66,10 +66,10 @@ var renderTime = function (time, input) {
     document.getElementById("password-strength").innerHTML = time;
 }
 
-hsimp({ outputTime: renderTime }, document.getElementById("password"));
+checker({ outputTime: renderTime }, document.getElementById("password"));
 ```
 
-#### `outputChecks`
+### `outputChecks`
 
 The `outputChecks` function is passed two variables: an array of check results and (optionally) the input which it refers to.
 
@@ -90,10 +90,10 @@ Each check result is an object with three properties:
 
 ### Currying
 
-The `hsimp` function supports currying. This means you can set the options once and then use the returned function to setup more than one input:
+The `checker` function supports currying. This means you can set the options once and then use the returned function to setup more than one input:
 
 ```javascript
-var attachHSIMP = hsimp({
+var attachHSIMP = checker({
     // shared options here
 });
 
