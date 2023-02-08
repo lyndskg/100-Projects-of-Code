@@ -8,20 +8,20 @@ I'm hoping to gain some more experience with languages I'm currently weak at (or
 
 &nbsp;
 
-## Progress (8/98)
+## Progress (9/98)
 I created this repository on Friday, January 20th, 2023.
 
 <ins>__Latest Update__</ins>:
-As of Tuesday, February 7th, 2023, I have completed (...or at least have made a good faith effort at &ndash; i.e. 70% or more completion level) roughly <b>8</b> out of the <b>98</b> projects listed below.
+As of Tuesday, February 7th, 2023, I have completed (...or at least have made a good faith effort at &ndash; i.e. 70% or more completion level) roughly <b>9</b> out of the <b>98</b> projects listed below.
 
 Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/tree/main/13.%20IP%20to%20Country) &mdash; a lookup tool for converting IP addresses to precise geographical metadata (i.e. country, region, city). At the same time, I have also been tweaking and finalizing my implementation of [#64](https://github.com/lyndskg/98-Projects-of-Code/tree/main/64.%20Codec) &mdash; a C++11 header library of codec software supporting multiple different encoding schemes. 
 
-<ins>__Primary Language Breakdown__</ins>: (8)  
+<ins>__Primary Language Breakdown__</ins>: (9)  
 
 <img width="508" alt="Primary Language Breakdown - 2/7/23" src="https://user-images.githubusercontent.com/60162813/217419953-493e6387-b2a7-4a2a-8a64-735be75e278b.png">
 
    - Python (3)
-   - JavaScript (1)
+   - JavaScript (2)
    - PHP (1)
    - Ruby (1)
    - C (1)
@@ -115,7 +115,9 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
 
 55. Build an OS
 56. Shuffle Deck
-57. Sorting Visualizer
+57. [Sorting Visualizer](https://github.com/lyndskg/98-Projects-of-Code/tree/main/57.%20Sorting%20Visualizer) ![](https://geps.dev/progress/80)
+   - JavaScript (2/7/23). A webpage displaying different sorting algorithm visualizations using the [p5.js](https://p5js.org) library. Algorithms can be run on differents-sized arrays &mdash; these arrays can be randomized, ordered, shuffled, and/or reversed. Implementation guided by [this repo](https://github.com/mertturkmenoglu/sorting-visualization). Additional guidance can be found [here](https://github.com/MichaelHolley/p5.js_SortingAlgorithmVisualization) and [here](https://github.com/syzxy/FunSorting).
+   - Fully implemented, but can use additional sorting algorithms.
 58. Static Code Analyzer
 59. Command Line Terminal
 60. UML Diagram Generator
