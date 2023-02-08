@@ -20,7 +20,6 @@ Currently supports the following sorting algorithms:
 - Selection Sort
 - Heap Sort
 - Tim Sort
-- Radix Sort
 - Shell Sort
 - Cycle Sort
 - Odd Even Sort
@@ -30,6 +29,8 @@ Implementation guided by [this repo](https://github.com/mertturkmenoglu/sorting-
 ## To Do
 
 Implementation is finished, but additional sorting algorithms may be added. Stylistically, may take notes from [here](https://github.com/MichaelHolley/p5.js_SortingAlgorithmVisualization). 
+
+Note: Radix sort was removed. 
 
 ## Usage
 
