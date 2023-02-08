@@ -8,7 +8,7 @@ I'm hoping to gain some more experience with languages I'm currently weak at (or
 
 &nbsp;
 
-## Progress (10/98)
+## Progress (11/98)
 I created this repository on Friday, January 20th, 2023.
 
 <ins>__Latest Update__</ins>:
@@ -16,7 +16,7 @@ As of Wednesday, February 10th, 2023, I have completed (...or at least have made
 
 Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/tree/main/13.%20IP%20to%20Country) &mdash; a lookup tool for converting IP addresses to precise geographical metadata (i.e. country, region, city). At the same time, I have also been tweaking and finalizing my implementation of [#64](https://github.com/lyndskg/98-Projects-of-Code/tree/main/64.%20Codec) &mdash; a C++11 header library of codec software supporting multiple different encoding schemes. 
 
-<ins>__Primary Language Breakdown__</ins>: (10)  
+<ins>__Primary Language Breakdown__</ins>: (11)  
 
 <img width="508" alt="Primary Language Breakdown - 2/8/23" src="https://user-images.githubusercontent.com/60162813/217480715-3022b178-6b6f-4836-82bb-caf1c8ea035a.png">
 
@@ -24,14 +24,14 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
       - #2, #4, #46, #73
    - JavaScript (2)
       - #57, #68
+   - Go (1.5)
+      - #13, #98
    - PHP (1)
       - #31
    - Ruby (1)
       - #10
    - C (1)
       - #22
-   - Go (0.5)
-      - #13
    - C++ (0.5)
       - #64
    
@@ -182,7 +182,9 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
 95. Pixel Art Generator
 96. Directory Tree Generator
 97. Random username Generator
-98. Roman to Decimal Converter
+98. [Roman to Decimal Converter](https://github.com/lyndskg/98-Projects-of-Code/tree/main/98.%20Roman%20to%20Decimal%20Converter)
+   - Go (2/8/23). A script that converts decimal numbers to roman numerals (and vice versa). It is a port of the CPAN-package [Roman](https://metacpan.org/pod/Roman), V1.24. Implementation is based on source code from [Chonla's Git repo](https://github.com/chonla/roman-number-go).
+   - Fully implemented and tested.
 
 &nbsp;
 &nbsp;
