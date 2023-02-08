@@ -19,6 +19,7 @@ namespace cppcodec {
 
             static CPPCODEC_ALWAYS_INLINE constexpr size_t alphabet_size() {
                 static_assert(sizeof(base32_hex_alphabet) == 32, "base32 alphabet must have 32 values");
+                
                 return sizeof(base32_hex_alphabet);
             } // alphabet_size()
 
@@ -42,7 +43,7 @@ namespace cppcodec {
         }; // class base32_hex
     } // namespace detail
 
-using base32_hex = detail::codec<detail::base32<detail::base32_hex>>;
+    using base32_hex = detail::codec<detail::base32<detail::base32_hex>>;
 } // namespace cppcodec
 
 #endif // BASE32_HEX

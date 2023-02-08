@@ -16,7 +16,7 @@
 
 <b>PortWine</b> is a light-weight yet multi-threaded port scanner with support for both UDP and TCP protocols. It probes a server or host for open, closed, and/or filtered ports. Moreover, it can be run on any arbitrary ports of your choosing &mdash; taking in a list or range of ports as an optional command line argument. Otherwise, <b>PortWine</b> defaults its scanning space to the top 1000 ports. 
 
-Built using the "socket" Python library, with additional support from Python's "threading" and "queue" libraries for threaded programming functionalities. 
+Built using the ["socket"](https://docs.python.org/3/library/socket.html) Python library, with additional support from Python's ["threading"](https://docs.python.org/3/library/threading.html) and ["queue"](https://docs.python.org/3/library/queue.html) libraries for threaded programming functionalities. 
 
 Implementation was largely inspired by [M57's PieScan](https://github.com/m57/piescan/blob/master/piescan.py) and [Remzmike's KPorts](https://github.com/remzmike/python-kports-portscanner/blob/master/kports.py).
 
