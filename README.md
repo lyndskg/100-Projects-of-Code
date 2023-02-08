@@ -115,9 +115,9 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
 
 55. Build an OS
 56. Shuffle Deck
-57. [Sorting Visualizer](https://github.com/lyndskg/98-Projects-of-Code/tree/main/57.%20Sorting%20Visualizer) ![](https://geps.dev/progress/80)
+57. [Sorting Visualizer](https://github.com/lyndskg/98-Projects-of-Code/tree/main/57.%20Sorting%20Visualizer) ![](https://geps.dev/progress/90)
    - JavaScript (2/7/23). A webpage displaying different sorting algorithm visualizations using the [p5.js](https://p5js.org) library. Algorithms can be run on differents-sized arrays &mdash; these arrays can be randomized, ordered, shuffled, and/or reversed. Implementation guided by [this repo](https://github.com/mertturkmenoglu/sorting-visualization). Additional guidance can be found [here](https://github.com/MichaelHolley/p5.js_SortingAlgorithmVisualization) and [here](https://github.com/syzxy/FunSorting).
-   - Fully implemented, but can use additional sorting algorithms.
+   - Fully implemented, but can be expanded to support additional sorting algorithms.
 58. Static Code Analyzer
 59. Command Line Terminal
 60. UML Diagram Generator
