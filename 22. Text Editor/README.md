@@ -21,7 +21,7 @@ Implementation was guided by [this](https://viewsourcecode.org/snaptoken/kilo/in
 
 ## To Do
 
-Nothing! This program is fully implemented and tested.
+This program is fully implemented and tested. However, code legibility could be improved by commenting `kilo.c`.
 
 ## Usage
 
@@ -33,7 +33,13 @@ cc kilo.c -o kilo
 
 If no errors occur, this will produce an executable named kilo. 
 
-To run `kilo`:
+Alternately, using the Makefile, you can simply run:
+
+``` 
+make kilo
+```
+
+Then, to run `kilo`:
 
 ``` 
 ./kilo <filename>

@@ -69,7 +69,9 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
 19. Quiz App
 20. Firewall
 21. ToDo List
-22. Text Editor
+22. [Text Editor](https://github.com/lyndskg/98-Projects-of-Code/tree/main/22.%20Text%20Editor) ![](https://geps.dev/progress/80)
+   - C (2/7/23). A small text editor written in under 1K lines of C in a single file with no dependencies &mdash; featuring syntax highlight and search functionalities. Implementation was guided by [this](https://viewsourcecode.org/snaptoken/kilo/index.html) instruction booklet, which is largely based on [Antirez's "Kilo"](http://antirez.com/news/108) &mdash; source code available [here](http://github.com/antirez/kilo).
+   - Fully implemented, tested and debugged; needs to be commented.
 23. App Builder
 24. Drawing App
 25. Survey App
