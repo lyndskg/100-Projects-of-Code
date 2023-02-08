@@ -114,7 +114,7 @@ struct editorSyntax HLDB[] = {
     },
 };
 
-#define HLDB_ENTRIES (sizeof(HLDF) / sizeof(HLDB[0]))
+#define HLDB_ENTRIES (sizeof(HLDB) / sizeof(HLDB[0]))
 
 /*** prototypes ***/
 
@@ -294,7 +294,7 @@ void editorUpdateSyntax(erow *row) {
                 }
             } else if (!strncmp(&row->render[i], mcs, mcs_len)) {
                 memset(&row->hl[i], HL_MLCOMMENT, mcs_len);
-                i += mcs-len;
+                i += mcs_len;
                 in_comment = 1;
                 continue;
             }
@@ -622,7 +622,7 @@ void editorSave() {
     int len;
     char *buf = editorRowsToString(&len);
 
-    int fd = open(E.filename, O_RWDR | O_CREAT, 0644);
+    int fd = open(E.filename, O_RDWR | O_CREAT, 0644);
     if (fd != -1) {
         if (ftruncate(fd, len) != -1) {
             if (write(fd, buf, len) == len) {
@@ -772,7 +772,7 @@ void editorDrawRows(struct abuf *ab) {
                     "Kilo editor -- version %s", KILO_VERSION);
 
                 if (welcomelen > E.screencols) welcomelen = E.screencols;
-                int padding = (E.screncols - welcomelen) / 2;
+                int padding = (E.screencols - welcomelen) / 2;
                 if (padding) {
                     abAppend(ab, "~", 1);
                     padding--;
