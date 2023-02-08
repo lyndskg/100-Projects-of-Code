@@ -182,7 +182,7 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
 95. Pixel Art Generator
 96. Directory Tree Generator
 97. Random username Generator
-98. [Roman to Decimal Converter](https://github.com/lyndskg/98-Projects-of-Code/tree/main/98.%20Roman%20to%20Decimal%20Converter)
+98. [Roman to Decimal Converter](https://github.com/lyndskg/98-Projects-of-Code/tree/main/98.%20Roman%20to%20Decimal%20Converter) ![](https://geps.dev/progress/100) ✓ 
    - Go (2/8/23). A script that converts decimal numbers to roman numerals (and vice versa). It is a port of the CPAN-package [Roman](https://metacpan.org/pod/Roman), V1.24. Implementation is based on source code from [Chonla's Git repo](https://github.com/chonla/roman-number-go).
    - Fully implemented and tested.
 
