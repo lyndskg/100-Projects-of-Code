@@ -18,7 +18,7 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
 
 <ins>__Primary Language Breakdown__</ins>: (11)  
 
-<img width="508" alt="Primary Language Breakdown - 2/8/23" src="https://user-images.githubusercontent.com/60162813/217520081-bb284b0b-c277-4a96-8c21-c31de817c76b.png">
+<img width="600" alt="Primary Language Breakdown - 2/8/23" src="https://user-images.githubusercontent.com/60162813/217520081-bb284b0b-c277-4a96-8c21-c31de817c76b.png">
 
    - Python (4)
       - #2, #4, #46, #73
