@@ -18,15 +18,22 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
 
 <ins>__Primary Language Breakdown__</ins>: (10)  
 
-<img width="508" alt="Primary Language Breakdown - 2/7/23" src="https://user-images.githubusercontent.com/60162813/217434712-6fed2af5-501c-47fb-b386-5b3938f549d8.png">
+<img width="508" alt="Primary Language Breakdown - 2/8/23" src="https://user-images.githubusercontent.com/60162813/217480715-3022b178-6b6f-4836-82bb-caf1c8ea035a.png">
 
    - Python (4)
+      - #2, #4, #46, #73
    - JavaScript (2)
+      - #57, #68
    - PHP (1)
+      - #31
    - Ruby (1)
+      - #10
    - C (1)
+      - #22
    - Go (0.5)
+      - #13
    - C++ (0.5)
+      - #64
    
 
 &nbsp;
