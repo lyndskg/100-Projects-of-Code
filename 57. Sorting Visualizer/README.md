@@ -1,7 +1,7 @@
 # 57. Sorting Visualizer
 
 <p align="center">
-<img width="470" alt="URL Components" src="https://user-images.githubusercontent.com/60162813/216759892-ac169158-87a1-4542-9780-50646e4b094b.png"> 
+<img width="470" alt="URL Components" src="https://github.com/lyndskg/98-Projects-of-Code/blob/main/57.%20Sorting%20Visualizer/example.gif"> 
 </p>
 
 <p align="center">
