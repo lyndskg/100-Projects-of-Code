@@ -34,4 +34,20 @@ When ran, it should look something like this:
 $ go run IP2Country.go input.txt
 ```
 
+In order to run tests at the command line, run the `go test` command.
+
+```
+$ go test 
+PASS
+ok     shorturl.at/glxDG  0.364s
+
+$ go test -v
+=== RUN   TestCreate
+--- PASS: TestCreate (0.00s)
+=== RUN   TestQuery
+--- PASS: TestQuery (0.00s)
+PASS
+ok    shorturl.at/glxDG  0.372s
+```
+
 The implementation and formatting of IP2Country's output is still not completely determined yet, but I will update its usage information here as soon as I have a chance to sort that out. 

@@ -42,5 +42,5 @@ By default, anyone is allowed to enter a new URL for shortening.
 To restrict the saving of URLs to only certain IP addresses, use the `allow` function:
 
 ```
-$shortener->allow('192.168.0.10');
+$ shortener->allow('192.168.0.10');
 ```

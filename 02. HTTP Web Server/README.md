@@ -23,7 +23,7 @@ Nothing! This program is fully implemented and tested.
 
 ## Usage
 
-Run HTTPServer.py with Python3 on the command line. It should look something like this:
+Run `HTTPServer.py` with Python3 on the command line. It should look something like this:
 
 ```
 $ python3 HTTPServer.py
