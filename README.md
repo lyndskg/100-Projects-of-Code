@@ -61,7 +61,7 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
 11. Your Portfolio Website
 12. Animated Navigation Toggle
 13. [Country Lookup using IP address](https://github.com/lyndskg/98-Projects-of-Code/tree/main/13.%20IP%20to%20Country)  ![](https://geps.dev/progress/50)
-   - Go (2/3/23 - Present). A lookup tool accepting .txt or .dat files containing IP address information, and returning the corresponding geographical metadata. Supported by Golang's ["iphelper"](https://github.com/safing/portmaster) package, touting buffered I/O functionalities and both JSON and binary encoding. Adapted from [JohnTech-O's Git repo](https://github.com/johntech-o/iphelper).
+   - Go (2/3/23 - Present). A lookup tool accepting .txt or .dat files containing IP address information &mdash; returning the corresponding geographical metadata. Supported by Golang's ["iphelper"](https://github.com/safing/portmaster) package &mdash; touting buffered I/O functionalities and both JSON and binary encoding. Adapted from [JohnTech-O's Git repo](https://github.com/johntech-o/iphelper).
    - Not completely implemented; needs to be extensively tested and debugged.
 
 ### <ins>Bots</ins>
