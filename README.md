@@ -8,19 +8,19 @@ I'm hoping to gain some more experience with languages I'm currently weak at (or
 
 &nbsp;
 
-## Progress (9/98)
+## Progress (10/98)
 I created this repository on Friday, January 20th, 2023.
 
 <ins>__Latest Update__</ins>:
-As of Tuesday, February 7th, 2023, I have completed (...or at least have made a good faith effort at &ndash; i.e. 70% or more completion level) roughly <b>9</b> out of the <b>98</b> projects listed below.
+As of Wednesday, February 10th, 2023, I have completed (...or at least have made a good faith effort at &ndash; i.e. 70% or more completion level) roughly <b>10</b> out of the <b>98</b> projects listed below.
 
 Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/tree/main/13.%20IP%20to%20Country) &mdash; a lookup tool for converting IP addresses to precise geographical metadata (i.e. country, region, city). At the same time, I have also been tweaking and finalizing my implementation of [#64](https://github.com/lyndskg/98-Projects-of-Code/tree/main/64.%20Codec) &mdash; a C++11 header library of codec software supporting multiple different encoding schemes. 
 
-<ins>__Primary Language Breakdown__</ins>: (9)  
+<ins>__Primary Language Breakdown__</ins>: (10)  
 
 <img width="508" alt="Primary Language Breakdown - 2/7/23" src="https://user-images.githubusercontent.com/60162813/217434712-6fed2af5-501c-47fb-b386-5b3938f549d8.png">
 
-   - Python (3)
+   - Python (4)
    - JavaScript (2)
    - PHP (1)
    - Ruby (1)
@@ -101,7 +101,9 @@ Currently, I am working on [#13](https://github.com/lyndskg/98-Projects-of-Code/
 ### <ins>Artificial Intelligence and Machine Learning</ins>
 
 45. Face Tracking
-46. Spam Classifier
+46. [Spam Classifier](https://github.com/lyndskg/98-Projects-of-Code/tree/main/46.%20Spam%20Classifier) ![](https://geps.dev/progress/75)
+   - Python (2/8/23). A spam classifier utilizing Scikit-Learn, [Natural Language Toolkit](https://www.nltk.org) (NLTK), and Python's ["pandas"](https://pandas.pydata.org/docs/user_guide/index.html) library to implement multiple classification algorithms of machine learning. Trained and tested on a [spambase set](https://archive.ics.uci.edu/ml/datasets/Spambase) of over 5,000 SMS. Can be used to detect whether a message is spam or not, and can also be used to supply detailed information regarding a classifier's accuracy score and/or AUC score &mdash; or even plot its confusion matrix. Implementation based on Git repos from [VaibhavMagon](https://github.com/vaibhavmagon/Python-Spam-Ham-SMS), [Krishnaik06](https://github.com/krishnaik06/SpamClassifier), [The-Fang](https://github.com/the-fang/Spam-mail-filtering); moreover, this guide by [Milind Soorya](https://www.milindsoorya.com/blog/build-a-spam-classifier-in-python#import-the-required-packages) was helpful.
+   - Fully implemented. Needs to be tested and debugged.
 47. Spoiler Blocker
 48. Music Suggestor
 49. Machine Translator

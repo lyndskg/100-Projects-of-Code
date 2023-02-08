@@ -104,19 +104,33 @@ for k, v in clfs.items():
     aucScore.append(auc(fpr, tpr))
 
     # show_auc(y_test, pred)
-
+    
+    print(k)
+    
     print('Accuracy. Avg: %0.5f, Std: %0.5f' % (np.mean(accuracyScore), np.std(accuracyScore)))
-    print('AUC. Avg: %0.5f, Std: %0.5f' % (np.mean(aucScore), np.std(aucScore)))  
+    print('AUC. Avg: %0.5f, Std: %0.5f' % (np.mean(aucScore), np.std(aucScore)))
 
+    cm = confusion_matrix(y_test, pred) # Checking classification results with confusion matrix.
+
+    f, ax = plt.subplots(figsize = (5, 5))
+    sns.heatmap(cm, annot = True, linewidths = 0.5, linecolor = "red", fmt = ".0f", ax = ax)
+    plt.xlabel("y_pred")
+    plt.ylabel("y_true")
+    plt.show()
+
+# Model predictions
+
+# Write functions to detect if the message is spam or not
+def find(x):
+    if x == 1:
+        print("Message is SPAM")
+    else:
+        print("Message is NOT Spam")
+
+# Replace text with any message of choice
+newtext = ["Free entry"]
+integers = vectorizer.transform(newtext)
 
 # Naive Bayes
-y_pred_nb = mnb.predict(X_test)
-y_true_nb = y_test
-
-cm = confusion_matrix(y_true_nb, y_pred_nb) # Checking classification results with confusion matrix.
-
-f, ax = plt.subplots(figsize = (5, 5))
-sns.heatmap(cm, annot = True, linewidths = 0.5, linecolor = "red", fmt = ".0f", ax = ax)
-plt.xlabel("y_pred_nb")
-plt.ylabel("y_true_nb")
-plt.show()
+x = mnb.predict(integers)
+find(x)
